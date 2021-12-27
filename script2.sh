@@ -1,5 +1,26 @@
 #!/bin/bash
-
+clear
+echo -e '\e[1;32m';
+echo "*********************************************************************";
+echo "*                _____   ___ _    _    ___   ___   ___              *";
+echo "*               |     | |___  \  /  _ |   | |___| |___              *";
+echo "*               |_____| |___   \/     |___| |      ___|             *";
+echo "*                                                                   *";
+echo "***UNIR Ecuador | Universidad Internacional de La Rioja en Ecuador***";
+echo "*                                                                   *";
+echo "***************Administración de Sistemas para la Cloud**************";
+echo "*                                                                   *";
+echo "* Actividad grupal: Programación en Bash                            *";
+echo "*                                                                   *";
+echo "* Integrantes:                                                      *";
+echo "*             > Pedro Santino Suntaxi Cocanguilla                   *";
+echo "*             > Washingtong David Pena Sanchez                      *";
+echo "*             > David Chimbo Vega                                   *";
+echo "*             > Gabriel Hernan Mafla Cabascango                     *";
+echo "*                                                                   *";
+echo "*********************************************************************";
+echo -e '\e[m';
+echo
 #scribid un script que ejecute cierta acción en función de la extensión de un archivo que recibe como parámetro. Si se trata de un JPG, 
 #copiar dicho archivo en la carpeta ~/fotos. Si resulta ser de otro formato, avisar al usuario sin hacer nada.
 

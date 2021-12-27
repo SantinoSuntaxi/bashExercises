@@ -3,7 +3,28 @@
 
 #Escribid un script en Bash que acepte una ruta a un fichero o un directorio e imprima por pantalla si es un fichero normal, 
 #un directorio u otro tipo de fichero. Finalmente, el script ejecutará el comando ls sobre esta ruta en formato largo
-
+clear
+echo -e '\e[1;32m';
+echo "*********************************************************************";
+echo "*                _____   ___ _    _    ___   ___   ___              *";
+echo "*               |     | |___  \  /  _ |   | |___| |___              *";
+echo "*               |_____| |___   \/     |___| |      ___|             *";
+echo "*                                                                   *";
+echo "***UNIR Ecuador | Universidad Internacional de La Rioja en Ecuador***";
+echo "*                                                                   *";
+echo "***************Administración de Sistemas para la Cloud**************";
+echo "*                                                                   *";
+echo "* Actividad grupal: Programación en Bash                            *";
+echo "*                                                                   *";
+echo "* Integrantes:                                                      *";
+echo "*             > Pedro Santino Suntaxi Cocanguilla                   *";
+echo "*             > Washingtong David Pena Sanchez                      *";
+echo "*             > David Chimbo Vega                                   *";
+echo "*             > Gabriel Hernan Mafla Cabascango                     *";
+echo "*                                                                   *";
+echo "*********************************************************************";
+echo -e '\e[m';
+echo
 read -p "Ingrese la ruta del fichero o carpeta: " ruta # Ingreso por consola
 echo "La ruta ingresada es : " $ruta
 

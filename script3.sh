@@ -1,4 +1,31 @@
 #!/bin/bash
+#Escribid un script que imprima en este orden y en líneas diferentes:
+#El nombre del script que se está ejecutando.
+#El número de argumentos que se han pasado al script.
+#El primer y segundo argumentos, ambos en la misma línea.
+#Si hay más de dos argumentos, los argumentos a partir del tercero (este incluido) cada uno en una línea.
+clear
+echo -e '\e[1;32m';
+echo "*********************************************************************";
+echo "*                _____   ___ _    _    ___   ___   ___              *";
+echo "*               |     | |___  \  /  _ |   | |___| |___              *";
+echo "*               |_____| |___   \/     |___| |      ___|             *";
+echo "*                                                                   *";
+echo "***UNIR Ecuador | Universidad Internacional de La Rioja en Ecuador***";
+echo "*                                                                   *";
+echo "***************Administración de Sistemas para la Cloud**************";
+echo "*                                                                   *";
+echo "* Actividad grupal: Programación en Bash                            *";
+echo "*                                                                   *";
+echo "* Integrantes:                                                      *";
+echo "*             > Pedro Santino Suntaxi Cocanguilla                   *";
+echo "*             > Washingtong David Pena Sanchez                      *";
+echo "*             > David Chimbo Vega                                   *";
+echo "*             > Gabriel Hernan Mafla Cabascango                     *";
+echo "*                                                                   *";
+echo "*********************************************************************";
+echo -e '\e[m';
+echo
 
 #Imprime el script que esta ejecutandose
 script_name1=$(basename $0)
