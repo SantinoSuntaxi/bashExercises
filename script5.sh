@@ -37,7 +37,7 @@ echo -e '\e[m';
 read valor
  
 echo -e '\e[1;32m';
-for fichero in `ls *.jpg`
+for fichero in  `ls *.jpg`   `ls *.JPG`
 do
 	echo "FICHEROS originales: " $fichero
 	mv $fichero  $(date +%Y)$(date +%m)$(date +%d)"-"${fichero%.*}"-"$valor.jpg
