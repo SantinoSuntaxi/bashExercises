@@ -24,10 +24,9 @@ else
     for parametro in "$@"; do
         if (($i == 1 && $# == 1)); then
             echo "Parametro $i: $parametro"
-        else
-            if (($i == 1 && $# >= 2)); then
-                parm12="$parm12 Parametro $i $parametro"
-            fi
+        else if (($i == 1 && $# >= 2)); then
+					parm12="$parm12 Parametro $i $parametro"
+				fi
         fi
         if (($i == 2 && $# == 2)); then
             parm12="$parm12 Parametro $i $parametro"
