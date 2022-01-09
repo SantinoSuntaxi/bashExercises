@@ -2,13 +2,6 @@
 clear
 echo -e '\e[1;32m';
 echo "*********************************************************************";
-echo "*                _____   ___ _    _    ___   ___   ___              *";
-echo "*               |     | |___  \  /  _ |   | |___| |___              *";
-echo "*               |_____| |___   \/     |___| |      ___|             *";
-echo "*                                                                   *";
-echo "***UNIR Ecuador | Universidad Internacional de La Rioja en Ecuador***";
-echo "*                                                                   *";
-echo "***************Administración de Sistemas para la Cloud**************";
 echo "*                                                                   *";
 echo "* Actividad grupal: Programación en Bash                            *";
 echo "*                                                                   *";
