@@ -1,17 +1,10 @@
 #!/bin/bash
 clear
 echo -e '\e[1;32m';
-echo "*********************************************************************";
-echo "*                                                                   *";
-echo "* Actividad grupal: Programación en Bash                            *";
-echo "*                                                                   *";
-echo "* Integrantes:                                                      *";
-echo "*             > Pedro Santino Suntaxi Cocanguilla                   *";
-echo "*             > Washingtong David Pena Sanchez                      *";
-echo "*             > David Chimbo Vega                                   *";
-echo "*             > Gabriel Hernan Mafla Cabascango                     *";
-echo "*                                                                   *";
-echo "*********************************************************************";
+echo " Integrantes:   > Pedro Santino Suntaxi Cocanguilla"
+echo "                > Washingtong David Pena Sanchez"
+echo "                > David Chimbo Vega"
+echo "                > Gabriel Hernan Mafla Cabascango"
 echo -e '\e[m';
 echo
 #scribid un script que ejecute cierta acción en función de la extensión de un archivo que recibe como parámetro. Si se trata de un JPG, 
