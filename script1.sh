@@ -3,17 +3,10 @@
 #un directorio u otro tipo de fichero. Finalmente, el script ejecutará el comando ls sobre esta ruta en formato largo
 clear
 echo -e '\e[1;32m';
-echo "*********************************************************************";
-echo "*                                                                   *";
-echo "* Actividad grupal: Programación en Bash                            *";
-echo "*                                                                   *";
-echo "* Integrantes:                                                      *";
-echo "*             > Pedro Santino Suntaxi Cocanguilla                   *";
-echo "*             > Washingtong David Pena Sanchez                      *";
-echo "*             > David Chimbo Vega                                   *";
-echo "*             > Gabriel Hernan Mafla Cabascango                     *";
-echo "*                                                                   *";
-echo "*********************************************************************";
+echo " Integrantes:   > Pedro Santino Suntaxi Cocanguilla"
+echo "                > Washingtong David Pena Sanchez"
+echo "                > David Chimbo Vega                     "
+echo "                > Gabriel Hernan Mafla Cabascango"
 echo -e '\e[m';
 echo
 read -p "Ingrese la ruta del fichero o carpeta: " ruta # Ingreso por consola
