@@ -1,18 +1,9 @@
-
 #!/bin/bash
-
 #Escribid un script en Bash que acepte una ruta a un fichero o un directorio e imprima por pantalla si es un fichero normal, 
 #un directorio u otro tipo de fichero. Finalmente, el script ejecutará el comando ls sobre esta ruta en formato largo
 clear
 echo -e '\e[1;32m';
 echo "*********************************************************************";
-echo "*                _____   ___ _    _    ___   ___   ___              *";
-echo "*               |     | |___  \  /  _ |   | |___| |___              *";
-echo "*               |_____| |___   \/     |___| |      ___|             *";
-echo "*                                                                   *";
-echo "***UNIR Ecuador | Universidad Internacional de La Rioja en Ecuador***";
-echo "*                                                                   *";
-echo "***************Administración de Sistemas para la Cloud**************";
 echo "*                                                                   *";
 echo "* Actividad grupal: Programación en Bash                            *";
 echo "*                                                                   *";
@@ -52,7 +43,3 @@ DIR="$(dirname "${ruta}")" ; FILE="$(basename "${ruta}")" # Separa en el caso de
 [[ -S $ruta ]] && { echo "El fichero existe y es de tipo Socket" && file $ruta && cd $DIR && ls -l && exit; }
 [[ -p $ruta ]] && { echo "El fichero existe y es de tipo Pipeline" && file $ruta && cd $DIR && ls -l && exit; }
 [[ -d $ruta ]] && { echo "Es un directorio" && file $ruta && cd $DIR && ls -l && exit;}
-
-
-
-
